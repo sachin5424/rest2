@@ -14,3 +14,5 @@ class Vlog(models.Model):
     msg = models.TextField()
     def __str__(self):
         return self.title
+
+#
